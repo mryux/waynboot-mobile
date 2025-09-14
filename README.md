@@ -79,11 +79,15 @@ npm cache clean --force
 // 切换新淘宝源
 npm config set registry https://registry.npmmirror.com
 
+
+
 # 安装依赖
-npm install
+## npm install
+npm install --legacy-peer-deps
 
 # 启动服务
-npm run dev
+## npm run dev
+npm run dev -- --port 4949
 ```
 
 ## 演示gif
